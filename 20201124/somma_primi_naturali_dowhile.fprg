@@ -4,9 +4,9 @@
         <attribute name="name" value=""/>
         <attribute name="authors" value="massi"/>
         <attribute name="about" value=""/>
-        <attribute name="saved" value="2020-11-24 12:11:45 PM"/>
+        <attribute name="saved" value="2020-11-24 12:21:07 PM"/>
         <attribute name="created" value="bWFzc2k7bWFzc2ktQXNwaXJlLVYzOzIwMjAtMTEtMTk7MDk6NDk6MjAgQU07MzE5MA=="/>
-        <attribute name="edited" value="bWFzc2k7bWFzc2ktQXNwaXJlLVYzOzIwMjAtMTEtMjQ7MTI6MTE6NDUgUE07MzszMzAx"/>
+        <attribute name="edited" value="bWFzc2k7bWFzc2ktQXNwaXJlLVYzOzIwMjAtMTEtMjQ7MTI6MjE6MDcgUE07NDszMzAx"/>
     </attributes>
     <function name="Main" type="None" variable="">
         <parameters/>
@@ -16,10 +16,10 @@
             <input variable="N"/>
             <assign variable="somma" expression="0"/>
             <assign variable="contatore" expression="1"/>
-            <while expression="contatore &lt;= N">
+            <do expression="contatore &lt;= N">
                 <assign variable="somma" expression="somma + contatore"/>
                 <assign variable="contatore" expression="contatore + 1"/>
-            </while>
+            </do>
             <output expression="&quot;La somma dei primi &quot; &amp; N &amp; &quot; numeri vale &quot; &amp; somma" newline="True"/>
         </body>
     </function>
