@@ -10,5 +10,5 @@ int main() {
   doppio = numero * 2;
 
   std::cout << "Il doppio di " << numero
-            << "è " << d oppio << endl;
+            << " è " << doppio << endl;
 }
