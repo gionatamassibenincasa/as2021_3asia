@@ -1,5 +1,4 @@
-// Dichiarato la funzione quadrato
-double quadrato(double);
+#include "quadrato.h"
 
 // Definizione della funzione quadrato
 double quadrato(double x) {

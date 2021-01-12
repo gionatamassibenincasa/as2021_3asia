@@ -1,6 +1,6 @@
 #include <iostream>
 using namespace std;
-#include "quadrato.cpp"
+#include "quadrato.h"
 
 double somma_di_quadrati(double x, double y);
 double somma_di_quadrati(double x, double y) {
