@@ -1,10 +1,11 @@
 template <class T>
 class Vettore {
   private:
-    T p[];
+    T *p;
     int dim;
+    int prossimaPosizione;
   public:
-    Vettore(int dim);
+    Vettore(int d);
     ~Vettore();
     T elemento(int pos);
     bool inserisciInCoda(T valore);
